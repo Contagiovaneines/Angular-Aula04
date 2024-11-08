@@ -1,0 +1,26 @@
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease;
+}
+
+.alerta-confirmacao {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 999;
+    width: 300px;
+}
+
+.alerta-confirmacao button {
+    margin: 5px;
+}
+
+.alerta-confirmacao button:hover {
+    opacity: 0.8;
+}
